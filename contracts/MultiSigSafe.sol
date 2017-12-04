@@ -12,7 +12,7 @@ contract MultiSigSafe {
     address constant public owner6 = ; // matt (snaproll) - Address TBD
     
     // INITIALIZING GLOBAL PUBLIC VARIABLES
-    uint8 constant public threshold = 2;            // Number of valid signatures for executing Tx
+    uint8 constant public threshold = 3;            // Number of valid signatures for executing Tx
     uint256 constant public limit = 1000*10**18;    // Limit of one Tx; modify at deploy time if needed
     uint256 public nonce;                           // to prevent multiple Tx executions
 
