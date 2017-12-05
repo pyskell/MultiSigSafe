@@ -9,7 +9,7 @@ contract MultiSigSafe {
     address constant public owner3 = 0x21a6203d774e966f2d4185cad0096759ba323fee; // MikO
     address constant public owner4 = 0x5465e25037BF201f582Ab8d829CA89f8aA21d15a; // OmniEdge
     address constant public owner5 = 0xb5187e9dF7c11A32D98616F9C4c70cbd4fb81c5B; // D34D
-    address constant public owner6 = ; // matt (snaproll) - Address TBD
+    address constant public owner6 = 0x92d5708ED0be4fd2599c9E4D74069EA4491c2235; // matt (snaproll)
     
     // INITIALIZING GLOBAL PUBLIC VARIABLES
     uint8 constant public threshold = 3;            // Number of valid signatures for executing Tx
